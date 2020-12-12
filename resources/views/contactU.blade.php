@@ -58,8 +58,7 @@
           <div class="col-sm-12">
             <div class="contact-map box">
               <div id="map" class="contact-map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1437.568801067858!2d-99.47802253663345!3d19.34052802401214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20a14878a64eb%3A0x65bdb503fdce37bc!2sUniversidad%20Tecnol%C3%B3gica%20del%20Valle%20de%20Toluca!5e0!3m2!1ses!2smx!4v1607731596772!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60249.41179153844!2d-99.50709901212187!3d19.300264620210054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdf5e991c29a11%3A0xb454d8b9c908aabe!2sSan%20Pedro%20Cholula%2C%2052050%20San%20Pedro%20Cholula%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1607751099991!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>              </div>
             </div>
           </div>
           <div class="col-sm-12 section-t8">
@@ -134,8 +133,9 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">
-                        Manhattan, Nueva York 10036,
-                        <br> EE. UU.
+                        Calle Mariano,Matamoros esq. Independencia #14
+                        Colonia Agricola, C.P. 52050
+                        <br> Santiago Atanico,Lerma Mex.
                       </p>
                     </div>
                   </div>

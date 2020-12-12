@@ -126,9 +126,7 @@
         <span></span>
       </button>
       <a class="navbar-brand text-brand" href="{{ route('index') }}">Fabrica de Lavaderos <br><span class="color-b">"El Tigre"</span></a>
-      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
+        
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -142,7 +140,7 @@
               Lavaderos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="{{ route('propertySingle') }}">Lavaderos Cemento</a>
+              <a class="dropdown-item" href="{{ route('propertySingle') }}">Lavaderos Concreto</a>
               <a class="dropdown-item" href="{{ route('blogSingle') }}">Lavaderos Granito</a>
               <a class="dropdown-item" href="{{ route('agent') }}">Lavaderos Laja</a>
             </div>
@@ -154,9 +152,7 @@
       <div class="nav-item">
                <a class="nav-link" href="{{ route('index') }}">Cerrar sesion</a>
      </div>
-      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
+      
                    
     </div>
   </nav><!-- End Header/Navbar -->

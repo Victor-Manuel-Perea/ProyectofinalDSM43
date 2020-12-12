@@ -164,7 +164,11 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="agent-avatar-box">
-                  <img src="assets/img/img10.jpeg" alt="" class="agent-avatar img-fluid">
+                <img src="assets/img/img2.jpeg"
+                      alt=""
+                      width="500"
+                      height="500"
+                      title="">
                 </div>
               </div>
               <div class="col-md-5 section-md-t3">
@@ -172,12 +176,11 @@
                   <div class="agent-title">
                     <div class="title-box-d">
                       <h3 class="title-d">Lavaderos
-                        <br> Escala</h3>
+                        <br> Concreto</h3>
                     </div>
                   </div>
                   <div class="agent-content mb-3">
                     <p class="content-d color-text-a">
-                      Lavadero de Cemento
                       Lavadero de concreto 80x66 Medida nominal:    
                     </p>
                     <div class="info-agents color-a">
@@ -206,7 +209,7 @@
                       </p>
                     </div>
                   </div>
-             </section>
+               </section>
          @include('footer')
 
   <!-- Vendor JS Files -->
