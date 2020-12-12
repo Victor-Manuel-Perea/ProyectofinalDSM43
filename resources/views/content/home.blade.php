@@ -49,16 +49,14 @@
       </div>
       
      <br>
-     <br>
-     <br>
-     
-        
-
-        <br>
         
         </section>
         <div>
         <a href="{{ route('alta') }}"><i class="fa fa-users"></i>Nuevo2</a>
+        <br>
+        <br>
+        <a href="{{ route('reporte') }}"></i>Reporte Excel</a>
+
         </div>
         </center>
         @include('footer')

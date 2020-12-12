@@ -77,3 +77,8 @@ Route::name('Productoseditar')->get('Productoseditar/{id}', 'ProductosController
 Route::name('salvar2')->put('salvar2/{id}', 'ProductosController@salvar2');        
 Route::name('profil')->get('profil/{id}', 'ProductosController@perfil');
 Route::name('Productoshome')->get('Productoshome/', 'ProductosController@Productoshome');
+
+Route::name('reporte')->get('reporte/', 'UsuariosController@reporte');
+Route::name('excel01')->get('excel01/', 'ExcelController@excel01');
+Route::name('excel02')->get('excel02/', 'ExcelController@excel02');
+Route::name('excel03')->get('excel03/', 'ExcelController@excel03');

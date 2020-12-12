@@ -17,4 +17,10 @@ class UsuariosModel extends Model
         'pass',
         'id_tipo_usuario',
     ];
+
+    public function scopeBuscar($query, $buscar){
+        if(trim($buscar) != ""){
+            $query->where(\DB::raw('nombre'), "LIKE", "%".$buscar."%");
+        }
+    }
 }

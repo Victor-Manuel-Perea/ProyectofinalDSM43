@@ -121,5 +121,30 @@ class UsuariosController extends Controller {
     return redirect()->route('home', ['id' => $id->id_usuario]);
     }
 
+  
+    ///------------------------
+    public function reporte(Request $request){
+        $data = [
+            "reporte" => "0",
+            "buscar" => "",
+        ];
+        $usuarios = UsuariosModel::Buscar($request->get('buscar'))
+            ->orderBy('id_usuario')
+            ->paginate(1);
+
+            if($request->all() !=null){
+                $data = [
+                    "reporte" => "1",
+                    "buscar" => $request->get('buscar')
+                ];
+            }
+
+        return view("excel.reporte")
+            ->with($data)
+            ->with(["usus" => $usuarios]);
+    }
 }
+
+
+
 
