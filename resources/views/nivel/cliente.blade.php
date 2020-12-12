@@ -1,0 +1,6 @@
+
+<center>
+
+@include('indexU')
+    
+</center>
